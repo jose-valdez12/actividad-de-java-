@@ -20,7 +20,7 @@ this.operacion1 = operacion1;
 this.operacion2 = operacion2;
         
 }
-
+//operaciones basicas 
 public int sumar (){
     int suma = this.operacion1+this.operacion2;
     return suma;
@@ -37,8 +37,8 @@ public int multiplicar (){
 }
 
 
-public int dividir (){
-    int dividir=(double)this.operacion1/(double)this.operacion2;
+public double dividir (){
+    double dividir =(double)this.operacion1/(double)this.operacion2;
     return dividir;
 }
 }
