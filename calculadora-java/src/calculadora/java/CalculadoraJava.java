@@ -41,4 +41,24 @@ public double dividir (){
     double dividir =(double)this.operacion1/(double)this.operacion2;
     return dividir;
 }
+
+
+
+    public int getOperacion1() {
+        return operacion1;
+    }
+
+    public void setOperacion1(int operacion1) {
+        this.operacion1 = operacion1;
+    }
+
+    public int getOperacion2() {
+        return operacion2;
+    }
+
+    public void setOperacion2(int operacion2) {
+        this.operacion2 = operacion2;
+    }
+
+
 }
